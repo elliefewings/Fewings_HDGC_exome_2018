@@ -21,3 +21,6 @@ Prepares data for cluster analysis:
 - Selects genes with at least one loss of function variants that is not in the top 1% of variable genes (also for 1000 genomes data)
 - Outputs genes to be input into cytoscape genemania
 - performs fishers exact on each output gene ontology term, testing significance of occurence of loss of function variants in each term in 1000 genomes versus HDGC data
+
+## gast_Aug17_relax_fishers_lof_v4_exac_20180105.Rmd
+Runs fishers exact test for combined allele counts in BRCA2 and PALB2 in HDGC set and all published HDGC exome studies in comparison to 1000 genomes european set.
